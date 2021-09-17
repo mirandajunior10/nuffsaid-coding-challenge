@@ -22,14 +22,12 @@ The 3 priorities that we provide you are:
 
 ![Example Design](./mock.png)
 
-
 2. The messages should be color coded depending on the priority of the message. The appropriate color per priority is:
 
    * error: #F56236
    * warning: #FCE788
    * info: #88FCA3
-
-3. Each time a message with the priority level of error is received, a snackbar containing the error message should also appear at the top of the application. The error should disappear in 2 seconds, when another error message takes its place, or when the user clears it via the provided button located in the error message.
+3. Each time a message with the priority level of error is received, a snackbar containing the error message should also appear at the top right of the application. The error should disappear in 2 seconds, when another error message takes its place, or when the user clears it via the provided button located in the error message.
 4. A user should be able to clear all messages at any point.
 5. A user should be able to clear a specific message in a specific column
 6. A user should be able to start and stop incoming messages. By default the messages should be running and displaying on the grid. The start/stop button should update depending on the state of the feed.
@@ -42,5 +40,6 @@ The 3 priorities that we provide you are:
 13. Please submit your code either via Github or Gitlab
 14. Use React context API and hooks to showcase your understanding of these React features
 15. Pay attention to performance of your page rendering
+16. "nunffsaid.com Coding Challenge" is part of the design. Make sure that you dont miss that header
 
 ***Applicants are provided this challenge with no expectation on deadline. Please take the time you need to complete the challenge to the best of your ability.***
