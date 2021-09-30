@@ -12,7 +12,7 @@ import generateMessage from "../services/Api";
 import Snackbar from "@mui/material/Snackbar";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import { Alert, AlertTitle } from "@mui/material";
+import { Alert } from "@mui/material";
 
 interface MessageContextData {
   errorMessages: Message[];
@@ -94,13 +94,8 @@ const MessageProvider: React.FC = ({ children }) => {
   };
 
   useEffect(() => {
-    const newSubscription = generateMessage((message: Message) => {
-      setMessages((oldMessages) => [...oldMessages, message]);
-      message.priority === Priority.Error && setSnackBarMessage(message);
-    });
-
-    setSubscription(newSubscription);
-  }, []);
+    subscribe();
+  }, [subscribe]);
 
   return (
     <MessageContext.Provider

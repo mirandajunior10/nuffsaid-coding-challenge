@@ -59,6 +59,7 @@
   },
   "repository": "git@gitlab.com:arnab8/nuffsaid-frontend-coding-challenge.git",
   "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.2",
     "@types/faker": "^5.5.8",
     "@types/lodash": "^4.14.172",
     "@types/styled-components": "^5.1.14"
