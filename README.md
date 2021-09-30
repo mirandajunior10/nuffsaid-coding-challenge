@@ -6,14 +6,15 @@ The purpose of the application is to correctly render a stream of messages comin
 This challenge already includes an API response. It is not required or expected for you to make any changes to this interaction.
 
 The 3 priorities that we provide you are:
-  * 0 = error
-  * 1 = warning
-  * 2 = info
+
+* 0 = error
+* 1 = warning
+* 2 = info
 
 ### Acceptance Criteria
 
 1. Messages should be rendered in a table-like structure. The newest messages should appear at the top of their respective columns.
-2. Provide test coverage of the components. 
+2. Provide test coverage of the components.
 3. Ensure UI Matches the image
 
 ### Note
@@ -22,21 +23,20 @@ The 3 priorities that we provide you are:
 
 ![Example Design](./mock.png)
 
-- [x]  The messages should be color coded depending on the priority of the message. The appropriate color per priority is:
-    - error: #F56236
-    - warning: #FCE788
-    - info: #88FCA3
-- [x]  Each time a message with the priority level of error is received, a snackbar containing the error message should also appear at the top right of the application. The error should disappear in 2 seconds, when another error message takes its place, or when the user clears it via the provided button located in the error message.
-- [x]  A user should be able to clear all messages at any point.
-- [x]  A user should be able to clear a specific message in a specific column
-- [x]  A user should be able to start and stop incoming messages. By default the messages should be running and displaying on the grid. The start/stop button should update depending on the state of the feed.
-- [x]  A user should see a count of specific messages in each column
-- [x]  Use material-ui components and styled-component styles
-- [x]  Use functional components
-- [x]  Improve code structure. Your implementation should be more like how you do it for any production grade application development
-- [x]  Define Typescript types where necessary
-- [x]  Use React context API and hooks to showcase your understanding of these React features
-- [x]  Pay attention to performance of your page rendering
-- [x]  "nunffsaid.com Coding Challenge" is part of the design. Make sure that you dont miss that header
-- [X]  Write meaningful and useful unit tests. `jest` is already included in the project
-
+* [x]  The messages should be color coded depending on the priority of the message. The appropriate color per priority is:
+  * error: #F56236
+  * warning: #FCE788
+  * info: #88FCA3
+* [x]  Each time a message with the priority level of error is received, a snackbar containing the error message should also appear at the top right of the application. The error should disappear in 2 seconds, when another error message takes its place, or when the user clears it via the provided button located in the error message.
+* [x]  A user should be able to clear all messages at any point.
+* [x]  A user should be able to clear a specific message in a specific column
+* [x]  A user should be able to start and stop incoming messages. By default the messages should be running and displaying on the grid. The start/stop button should update depending on the state of the feed.
+* [x]  A user should see a count of specific messages in each column
+* [x]  Use material-ui components and styled-component styles
+* [x]  Use functional components
+* [x]  Improve code structure. Your implementation should be more like how you do it for any production grade application development
+* [x]  Define Typescript types where necessary
+* [x]  Use React context API and hooks to showcase your understanding of these React features
+* [x]  Pay attention to performance of your page rendering
+* [x]  "nunffsaid.com Coding Challenge" is part of the design. Make sure that you dont miss that header
+* [X]  Write meaningful and useful unit tests. `jest` is already included in the project
